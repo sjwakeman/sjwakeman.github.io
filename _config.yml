@@ -1,0 +1,21 @@
+# Site settings
+title: Learn.co studies
+header-img: img/home-bg.png
+email: swakeman@ca.rr.com
+copyright_name: sjwakeman
+description: > # this means to ignore newlines until "baseurl:"
+  Full Stack Web Dev. with React
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  sjwakeman
+learn_profile: sjwakeman
+email_username: swakeman@ca.rr.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
